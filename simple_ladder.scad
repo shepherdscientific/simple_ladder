@@ -21,9 +21,9 @@ echo(" segment length : ",segment_length)
 
 translate([0,0,total_length-1000]){
 
-//all_segments();
+all_segments();
 //segment(5);
-baseplate_detail(3,"down");
+//baseplate_detail(3,"down");
 }
 
 module baseplate_detail(i,side){
